@@ -92,8 +92,7 @@ public class Operaciones {
     @WebMethod(operationName = "velocidad")
     public float velocidad(@WebParam(name = "distancia") float distancia, @WebParam(name = "tiempo") float tiempo) {
         //TODO write your implementation code here:
-        float v = (distancia / tiempo);
-        //energía cinética = 0.5 * 2 kg * (10 m/s)^2 = 100 J        
+        float v = (distancia / tiempo);      
         return v;
     }
 
